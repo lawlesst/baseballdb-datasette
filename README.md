@@ -4,7 +4,6 @@
 
 Configuration for publishing the [Lahman Baseball Database](http://www.seanlahman.com/baseball-archive/statistics/) with [Datasette](https://github.com/simonw/datasette).
 
-### Overview
 See the following blog posts for an overview of the project and data.
 * ["Publishing the Lahman Baseball Database with Datasette"](http://lawlesst.github.io/notebook/baseball-datasette.html)
 * ["Now Publishing Complete Lahman Baseball Database with Datasette"](http://lawlesst.github.io/notebook/baseball-datasette-full.html)
