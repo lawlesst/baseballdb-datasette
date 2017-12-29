@@ -1,5 +1,7 @@
 # baseballdb-datasette
 
+[baseballdb.lawlesst.net](https://baseballdb.lawlesst.net/)
+
 Configuration for publishing the [Lahman Baseball Database](http://www.seanlahman.com/baseball-archive/statistics/) with [Datasette](https://github.com/simonw/datasette).
 
 ### Overview
