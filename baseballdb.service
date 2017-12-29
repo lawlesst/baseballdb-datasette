@@ -1,0 +1,12 @@
+[Unit]
+Description=baseballdb
+After=network.target
+
+[Service]
+User=datasette
+Group=datasette
+WorkingDirectory=/opt/baseballdb
+ExecStart=/opt/baseballdb/venv/bin/python run.py
+
+[Install]
+WantedBy=multi-user.target
