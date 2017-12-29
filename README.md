@@ -25,5 +25,5 @@ See the following blog posts for an overview of the project and data.
   </VirtualHost>
   ```
 * Python 3 and pip were installed using apt-get:
- * `sudo apt-get install python3 python-pip`
-* Pythons [virtualenv](https://docs.python.org/3/library/venv.html) is used to manage the Python libraries and referenced from the systemd configuration. The environment is expected to be at `venv` in the same directory as the datasette configuration.
+  * `sudo apt-get install python3 python-pip`
+* Python's [virtualenv](https://docs.python.org/3/library/venv.html) is used to manage the Python libraries and referenced from the systemd configuration. The environment is expected to be at `venv` in the same directory as the datasette configuration.
