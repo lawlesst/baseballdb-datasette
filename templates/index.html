@@ -11,11 +11,13 @@
 {% block content %}
 <h1>{{ metadata.title or "Datasette" }}</h1>
 
-{% block description_source_license %}{% include "_description_source_license.html" %}{% endblock %}
+<p>The following datasets are available and published with <a href="https://github.com/simonw/datasette">datasette</a>. </p>
+<ul>
+  <li><a href="http://www.seanlahman.com/baseball-archive/statistics"/>Lahman's Baseball Database</a> by <a href="http://seanlahman.com/">Sean Lahman</a>. Current through the 2016 season.</li>
+  <li><a href="https://github.com/chadwickbureau/baseballdatabank">Baseball Databank</a> by the <a href="http://chadwick-bureau.com/">Chadwick Bureau</a>. Current through the 2017 season.</li>
+</ul>
 
-<p>This compiled and hosted by <a href="https://github.com/lawlesst">Ted Lawless</a> and published with <a href="https://github.com/simonw/datasette">datasette.</a></p>
-
-<p><a class="github-button" href="https://github.com/lawlesst/baseballdb-datasette" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star lawlesst/baseballdb-datasette on GitHub">Star</a>
+<p>Compiled and hosted by <a href="https://github.com/lawlesst">Ted Lawless</a>.&nbsp;&nbsp;<a class="github-button" href="https://github.com/lawlesst/baseballdb-datasette" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star lawlesst/baseballdb-datasette on GitHub">Star</a>
 </p>
 
 {% for database in databases %}

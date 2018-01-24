@@ -7,7 +7,7 @@ import json
 import sys
 
 metadata_data = {
-    "title": "Lahman’s Baseball Database",
+    "title": "Baseball Databases",
     "license": "Creative Commons Attribution-ShareAlike 3.0 Unported License",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
     "source": "Sean Lahman",
@@ -17,7 +17,7 @@ metadata_data = {
 if __name__ == "__main__":
 
     ds = Datasette(
-        ["baseball.db"],
+        ["baseball.db", "chadwick.db"],
         cache_headers=True,
         cors=True,
         page_size=100,

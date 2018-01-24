@@ -36,11 +36,6 @@
             {{ metadata.license }}
         {% endif %}
     {% endif %}
-    {% if metadata.source or metadata.source_url %}&middot;
-        Data source: {% if metadata.source_url %}
-            <a href="{{ metadata.source_url }}">
-        {% endif %}{{ metadata.source or metadata.source_url }}{% if metadata.source_url %}</a>{% endif %}
-    {% endif %}
 </div>
 {% if select_templates %}<!-- Templates considered: {{ select_templates|join(", ") }} -->{% endif %}
 </body>
