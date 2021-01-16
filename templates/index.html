@@ -2,9 +2,6 @@
 
 {% block title %}Baseball Databank{% endblock %}
 
-{% block extra_head %}
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-{% endblock %}
 
 {% block body_class %}index{% endblock %}
 
@@ -13,10 +10,9 @@
 
 <p>This is a version of the Baseball Databank, which is complied and published by the <a href="http://chadwick-bureau.com/">Chadwick Baseball Bureau</a>. It's made available and published with <a href="https://github.com/simonw">Simon Willison<a/>'s <a href="https://github.com/simonw/datasette">Datasette</a>.</p>
 
-<p>Source data is pulled from <a href="https://github.com/chadwickbureau/baseballdatabank">Github</a> (November, 2019) and loaded into SQLite using <a href="https://github.com/simonw/csvs-to-sqlite">csvs-to-sqlite</a>.</p>
+<p>Source data is pulled from <a href="https://github.com/chadwickbureau/baseballdatabank">Github</a> (January, 2021) and loaded into SQLite using <a href="https://github.com/simonw/csvs-to-sqlite">csvs-to-sqlite</a>.</p>
 
-<p>Compiled and hosted by <a href="https://github.com/lawlesst">Ted Lawless</a>.&nbsp;&nbsp;<a class="github-button" href="https://github.com/lawlesst/baseballdb-datasette" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star lawlesst/baseballdb-datasette on GitHub">Star</a>
-</p>
+<p>Compiled and hosted by <a href="https://github.com/lawlesst">Ted Lawless</a></p>
 
 {% block description_source_license %}{% include "_description_source_license.html" %}{% endblock %}
 
@@ -37,6 +33,3 @@
 {% endfor %}
 
 {% endblock %}
-
-
-ghs.googlehosted.com.
